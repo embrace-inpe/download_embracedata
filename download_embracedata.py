@@ -9,7 +9,7 @@ class Embrace_Data:
     self.base_url = 'https://embracedata.inpe.br/'
 
     logging.basicConfig(
-    filename = 'embracedata_download.log',
+    filename = 'download_embracedata.log',
     format='%(asctime)s,%(levelname)s - %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S', level=logging.INFO
     )
