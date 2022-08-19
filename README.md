@@ -7,8 +7,8 @@ Clone repository in https....
 Install packeges
 pip3 install -r requirements.txt
 
-Change input data in get_data.py and unconment instrument to download data
-a folder will be created in te base dir of project with tree bellow:
+Change input data in get_data.py and unconment instrument to download data.
+Folder will be created in te base dir of project with tree bellow:
 data/instrument/year/stn/ etc
 
 

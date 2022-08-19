@@ -41,11 +41,11 @@ SCINTILLATION = {
 def download_Files():
   get_data = embracedata_download.Embrace_Data()
   #get_data.Callisto(**CALLISTO)
-  #get_data.Imager(**IMAGER)
+  get_data.Imager(**IMAGER)
   #get_data.Ionosonde(**IONOSONDE)
   #get_data.Lidar(**LIDAR)
   #get_data.Magnetometer(**MAGNETOMETER)
-  get_data.Scintillation(**SCINTILLATION)
+  #get_data.Scintillation(**SCINTILLATION)
 
 if __name__ == '__main__':
   download_Files()
