@@ -1,4 +1,4 @@
-import download_embracedata
+from download_embracedata import Embrace_Data
 
 
 CALLISTO = { 
@@ -39,12 +39,12 @@ SCINTILLATION = {
 }
 
 def download_Files():
-  get_data = download_embracedata.Embrace_Data()
+  get_data = Embrace_Data()
   #get_data.Callisto(**CALLISTO)
   get_data.Imager(**IMAGER)
   #get_data.Ionosonde(**IONOSONDE)
   #get_data.Lidar(**LIDAR)
-  #get_data.Magnetometer(**MAGNETOMETER)
+  get_data.Magnetometer(**MAGNETOMETER)
   #get_data.Scintillation(**SCINTILLATION)
 
 if __name__ == '__main__':
