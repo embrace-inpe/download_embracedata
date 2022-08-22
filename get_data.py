@@ -7,9 +7,9 @@ CALLISTO = {
 }
 
 IMAGER = {
-  'start_date': '2022-01-29',
-  'end_date': '2022-01-31',
-  'stations': ['CA', 'CP'],
+  'start_date': '2017-02-06',
+  'end_date': '2017-02-20',
+  'stations': ['CF'],
   'filters': ['O6-DARK', 'OH-DARK']
 }
 
@@ -44,7 +44,7 @@ def download_Files():
   get_data.Imager(**IMAGER)
   #get_data.Ionosonde(**IONOSONDE)
   #get_data.Lidar(**LIDAR)
-  get_data.Magnetometer(**MAGNETOMETER)
+  #get_data.Magnetometer(**MAGNETOMETER)
   #get_data.Scintillation(**SCINTILLATION)
 
 if __name__ == '__main__':
