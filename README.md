@@ -3,10 +3,10 @@
 [![](https://img.shields.io/badge/Version-1.0-yellow.svg)](https://github.com/embrace-inpe/download_embracedata)
 [![](https://img.shields.io/badge/INPE-EMBRACE-orange.svg)](http://www2.inpe.br/climaespacial/portal/pt/)
 
-This software download data from Embrace repository available in this address:
-https://embracedata.inpe.br
+This software download data from Embrace repository available in https://embracedata.inpe.br
 
 Need Python >= 3.6 to work
+
 Python is a multiplataform languague and easy running in Windows, MacOS and Linux(Native).
 Download and install last stable version of Python in https://www.python.org/downloads/
 
@@ -146,6 +146,7 @@ python3 get_data.py
 After run script a log file with name "download_embracedata.log" and data dir with name "data" will be created in project dir.
 
 Log output infos:
+
 File download:
 ```sh
 2022-08-19 17:11:09,INFO - Downloading file "ara03feb.22m" from "https://embracedata.inpe.br/magnetometer/ARA/2022/"

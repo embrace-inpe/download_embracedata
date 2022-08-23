@@ -7,10 +7,10 @@ CALLISTO = {
 }
 
 IMAGER = {
-  'start_date': '2017-02-06',
-  'end_date': '2017-02-20',
+  'start_date': '2022-08-01',
+  'end_date': '2022-08-10',
   'stations': ['CF'],
-  'filters': ['O6-DARK', 'OH-DARK']
+  'filters': ['O6', 'OH']
 }
 
 IONOSONDE = {
