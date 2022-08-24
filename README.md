@@ -36,8 +36,7 @@ Follow the example each instrument:
 
 ## Callisto
 
-date with format:
-YYYY-MM-DD
+date with format: YYYY-MM-DD
 
 Modify the dates. In the example below the script will download between date 2022-01-15 and 2022-01-31.
 ```python
@@ -48,9 +47,10 @@ CALLISTO = {
 ```
 ## IMAGER
 
-date and station/filter with format:
-YYYY-MM-DD
+date and station/filter with format: YYYY-MM-DD
+
 all available stations: ['BJL', 'BV', 'CA', 'CP', 'CF', 'SMS']
+
 all available filters: ['O6', 'OH', 'O6-DARK', 'OH-DARK']
 
 It is necessary to modify the range of dates, stations and filters.
@@ -66,10 +66,12 @@ IMAGER = {
 ```
 
 ## IONOSONDE
-date and station/extension with format:
-YYYY-DOY
+date and station/extension with format: YYYY-DOY
+
 DOY = day of the year
+
 all available stations: ['BLJ03', 'BVJ03', 'CAJ2M', 'CGK21', 'FZA0M', 'SAA0K', 'SMK29']
+
 all available extensions: ['.RSF', '.SAO', '.PNG', '.DFT', '.DVL', '.SKY' 'SAO.XML' 'MMM']
 
 It is necessary to modify the range of days of year, stations and extensions.
@@ -86,8 +88,8 @@ IONOSONDE = {
 It is possible find the day of year in this page: https://www.calendario-365.com.br/numeros-dos-dias/2020.html
 
 ## LIDAR
-date and element with this format:
-YYYY-MM-DD
+date and element with this format: YYYY-MM-DD
+
 all available elements: ['Potassium', 'Sodium']
 
 It is necessary to modify the range of dates and elements of files.
@@ -100,8 +102,8 @@ LIDAR = {
 }
 ```
 ## MAGNETOMETER
-date and station whit format:
-YYYY-MM-DD
+date and station whit format: YYYY-MM-DD
+
 all available stations: ['ALF', 'ARA', 'CBA', 'CHI', 'CXP', 'EUS', 'JAT', 'MAN','MED',
                         'PAL', 'PVE', 'RGA', 'SJC', 'SLZ', 'SMS', 'STM', 'TCM', 'VSS']
 
@@ -116,9 +118,10 @@ MAGNETOMETER = {
 }
 ```
 ## SCINTILLATION
-date and stations with format:
-YYYY-DOY
+date and stations with format: YYYY-DOY
+
 DOY = day of the year
+
 all available stations: ['afl', 'alt', 'apu', 'bht', 'bhz', 'boa', 'bov', 'bsa', 'bsb',
                          'cba', 'chp', 'cpa', 'cub', 'dou', 'imp', 'ios', 'nta', 'pbr',
                          'pln', 'ppt', 'pvh', 'sjc', 'sjk', 'slz', 'sta', 'tfe']
