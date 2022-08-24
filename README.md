@@ -1,4 +1,5 @@
 # Downloading files from Space Weather Repository
+[![](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/embrace-inpe/download_embracedata/blob/master/LICENSE)
 [![](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/)
 [![](https://img.shields.io/badge/Version-1.0-yellow.svg)](https://github.com/embrace-inpe/download_embracedata)
 [![](https://img.shields.io/badge/INPE-EMBRACE-orange.svg)](http://www2.inpe.br/climaespacial/portal/pt/)
